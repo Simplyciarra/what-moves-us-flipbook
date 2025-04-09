@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WHAT MOVES US – Flipbook Preview</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cormorant Garamond', serif;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 36px;
+      margin: 20px 0;
+      color: #1a237e;
+    }
+    .flipbook {
+      width: 90%;
+      max-width: 900px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .page {
+      background: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 42%;
+      min-height: 400px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      transition: transform 0.3s ease;
+    }
+    .page:hover {
+      transform: scale(1.03);
+    }
+    .title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      color: #1a237e;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .caption {
+      font-size: 14px;
+      color: #666;
+      font-style: italic;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>WHAT MOVES US</h1>
+  <div class="flipbook">
+    <div class="page">
+      <div class="title">Cover Design</div>
+      <p>A minimal, cosmic design with white text and gold accents on a navy background.</p>
+      <div class="caption">Front cover concept with centered text and starry backdrop</div>
+    </div>
+    <div class="page">
+      <div class="title">Epigraph Spread</div>
+      <p>Left page features a starry night background. Right page uses generous white space to highlight the quote.</p>
+      <div class="caption">Layout encourages introspection and space</div>
+    </div>
+    <div class="page">
+      <div class="title">Section I – The Divine</div>
+      <p>Layered poetic structure arranged to guide the reader through synchronicity and intuition.</p>
+      <div class="caption">Symmetrical indentation and visual rhythm</div>
+    </div>
+    <div class="page">
+      <div class="title">Section II – Mirrors & Meaning</div>
+      <p>Contrast of duality (Yin/Yang, Joy/Pain) with reflections on meaning-making.</p>
+      <div class="caption">Balanced visual flow across spreads</div>
+    </div>
+    <div class="page">
+      <div class="title">Standard Poetry Layout</div>
+      <p>Gradual indentation and typography build emotion and pacing, culminating in bold text emphasis.</p>
+      <div class="caption">Dynamic poetic emphasis with UNBREAKABLE WILL</div>
+    </div>
+    <div class="page">
+      <div class="title">Love Emphasis Spread</div>
+      <p>Typographic contrast: sparse poetic lines juxtaposed with a powerful LOVE statement.</p>
+      <div class="caption">Elegant space for the emotional crescendo</div>
+    </div>
+    <div class="page">
+      <div class="title">Visual Gallery</div>
+      <p>Gradient blocks and textures encourage reflection. Optional reader prompts below.</p>
+      <div class="caption">A moment of visual pause and interpretation</div>
+    </div>
+    <div class="page">
+      <div class="title">Author Page</div>
+      <p>Optional portrait with a brief poetic biography. Simple layout reflects author's tone and theme.</p>
+      <div class="caption">Closing moment of intimacy with the reader</div>
+    </div>
+  </div>
+</body>
+</html>
